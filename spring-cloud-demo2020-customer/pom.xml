@@ -12,6 +12,10 @@
     <packaging>jar</packaging>
     <artifactId>spring-cloud-demo2020-customer</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!--        依赖nacos的jar 实现服务的注册和发现-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

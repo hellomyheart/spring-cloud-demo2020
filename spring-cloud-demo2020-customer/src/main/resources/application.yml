@@ -1,0 +1,11 @@
+server:
+  port: 8101
+spring:
+  application:
+    name: DemoHelloCustomer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  main:
+    allow-bean-definition-overriding: true #服务可以被使用多次

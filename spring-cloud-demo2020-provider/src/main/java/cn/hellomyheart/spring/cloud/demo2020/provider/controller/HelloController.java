@@ -1,4 +1,4 @@
-package cn.hellomyheart.spring.cloud.demo2020.controller;
+package cn.hellomyheart.spring.cloud.demo2020.provider.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

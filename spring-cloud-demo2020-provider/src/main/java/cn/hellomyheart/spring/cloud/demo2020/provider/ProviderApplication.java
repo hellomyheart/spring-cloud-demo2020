@@ -1,4 +1,4 @@
-package cn.hellomyheart.spring.cloud.demo2020;
+package cn.hellomyheart.spring.cloud.demo2020.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
