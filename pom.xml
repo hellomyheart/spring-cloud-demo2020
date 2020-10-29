@@ -59,4 +59,10 @@
         </plugins>
     </build>
 
+
+    <modules>
+        <module>spring-cloud-demo2020-common</module>
+        <module>spring-cloud-demo2020-provider</module>
+        <module>spring-cloud-demo2020-customer</module>
+    </modules>
 </project>
