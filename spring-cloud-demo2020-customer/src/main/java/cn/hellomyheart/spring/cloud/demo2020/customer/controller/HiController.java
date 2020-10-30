@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * @description
  * @className: HiController
@@ -21,5 +23,15 @@ public class HiController {
     @GetMapping("/hi")
     public String hi(){
         return helloService.hello();
+    }
+
+    @GetMapping("/hi2")
+    public String h2(String num){
+        return helloService.hi2(num);
+    }
+
+    @GetMapping("/hi3")
+    public List hi3(int count){
+        return helloService.h3(count);
     }
 }
